@@ -1,0 +1,17 @@
+{
+  "name": "shernof",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "homepage": "https://shernof.github.io/shernof",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ -- recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "shernof",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.13.0"
+  }
+}
